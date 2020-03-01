@@ -1,0 +1,31 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "update-book",
+	"type": "object",
+	"properties": {
+
+		"title": {
+			"type": "string"
+		},
+
+		"author": {
+			"type": "string"
+		},
+
+		"dueDate": {
+			"type": "string"
+		},
+
+		"completed": {
+			"type": "boolean"
+		}
+		
+	},
+	"required": [
+		"title",
+		"author",
+		"dueDate",
+		"completed"
+	],
+	"additionalProperties": false
+}

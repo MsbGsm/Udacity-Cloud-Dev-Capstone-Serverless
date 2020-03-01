@@ -1,0 +1,25 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "create-book",
+	"type": "object",
+	"properties": {
+		
+		"title": {
+			"type": "string"
+		},
+
+		"author": {
+			"type": "string"
+		},
+
+		"dueDate": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"title",
+		"author",
+		"dueDate"
+	],
+	"additionalProperties": false
+}
